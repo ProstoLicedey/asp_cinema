@@ -1,0 +1,164 @@
+
+html {
+    font-size: 15px;
+    background-color: #17082f;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #17082f;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #17082f;
+}
+
+#N{
+    margin-left:auto;
+}
+a {
+    white-space: nowrap;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.6), 0 0 3px rgba(255, 255, 255, 0.5),
+        0 0 0.5rem rgba(255, 255, 255, 0.3), 0 0 2rem rgba(255, 255, 255, 0.2);
+}
+.container {
+    color: #44d9e8; /*צגוע רנטפעא*/
+    height:530px;
+    
+}
+footer {
+    background-color: #44d9e8;
+    color: dimgray;
+    height: 40px;
+    margin-top: 100px;
+    /*position:fixed;*/
+}
+.container_1{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#main {
+    color: aliceblue;
+}
+
+.mazda {
+    box-shadow: 4px 4px #BAF300, -1em 0 .4em #B90091;
+    margin-top: 70px;
+    margin-right: 250px;
+
+
+}
+.mazda:hover {
+    transform: scale(1.15);
+
+}
+.srcc {
+    margin-bottom: 100px;
+    margin-left: 770px;
+    margin-top: -60px;
+    vertical-align: middle;
+    width: 220px;
+    text-align: center;
+    text-shadow: 10px;
+    color: #6610f2;
+}
+#Nissan_Silvia{
+    width:60%;
+}
+#LeftColumn{
+    position:absolute;
+}
+#RightColumn{
+    margin-left: 40%;
+    
+    position:absolute;
+}
+#RightColumn1 {
+    margin-left: 50%;
+    margin-top: 60px;
+    position: absolute;
+    
+}
+.main_win{
+   /* border-top:*/
+}
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#okno {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+
+#zatemnenie:target {
+    display: block;
+}
+
+.close {
+    display: inline-block;
+    border: 1px solid #0000cc;
+    color: #0000cc;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+    .close:hover {
+        background: #e6e6ff;
+    }
+#date{
+    height:35px;
+    width:208px;
+}
+#phone{
+    width:186px;
+}
+#password-input{
+    width:210px;
+}
+#seven{
+   font-family:Arial;
+  /* font-size:11pt;*/
+    /*color:greenyellow;*/
+}
+#registr_1 {
+    margin-top:20px;
+    width: 400px;
+    height: 600px;
+    background-color:p;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+}
+header {
+    background-color: #6f42c1;
+}
