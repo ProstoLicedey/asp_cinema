@@ -1,4 +1,40 @@
-﻿<body>
+﻿@model Registration  //связь с mod contact
+@{
+    ViewData["Title"] = "Registr";
+}
+
+
+<h2>Регистрация</h2>
+
+<form method = "post" asp-controller = "Registration" asp-action = "Check"> @*метод передачи данных*@
+    <label asp-for = "Name"></label>  @*выводится информация относящаяся к полю Name*@
+    <input asp-for = "Name"/>
+    <span asp-validation-for = "Name"></span>
+
+    <label asp-for = "Surame"></label>  
+    <input asp-for = "Surame"/>
+    <span asp-validation-for = "Surame"></span>
+
+    <label asp-for = "Age"></label>  
+    <input asp-for = "Age"/>
+    <span asp-validation-for = "Age"></span>
+
+    <label for="Phone" asp-for = "Phone"></label>  
+    <input type="tel" placeholder="(XXX)-XXX-XXXX" maxlength="10" id="Phone" name="Phone" asp-for = "Phone"/>
+    <span asp-validation-for = "Phone"></span>
+
+    <label asp-for = "Password"></label>  
+    <input type="password" id="password-input" placeholder="Введите пароль" name="Password" asp-for = "Password"/>
+    <span asp-validation-for = "Password"></span>
+
+    <label><input type="checkbox" class="password-checkbox">Показать пароль</label>
+
+    <input type = "submit" value = "Отправить"/>
+
+
+    <div id="rectangle2"></div>
+</form>
+@*<body>
     <script src="~/js/site_reg.js" asp-append-version="true"></script>
     <div id="Registr">
     <form method="post" id="registr_1">
@@ -50,11 +86,11 @@
              <p>
                 <input type="text" name="fy" />
                 <input type="submit" name="car3"/>
-            </p>*@
-            <style>
+           @* </p>*@
+            @*<style>
       
       
-    </style>
+    </style>*@*@*@
  
 
     <div id="zatemnenie">

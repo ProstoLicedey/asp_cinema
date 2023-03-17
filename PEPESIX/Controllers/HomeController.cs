@@ -12,28 +12,28 @@ namespace pitpm_pr1.Controllers
     public class Car
     {
 
-        public string Name;
-        public string Mileage;
-        public string Year;
-        public Car(string Name, string Mileage, string Year)
-        {
-            this.Name = Name;
-            this.Mileage = Mileage;
-            this.Year = Year;
-        }
+        //public string Name;
+        //public string Mileage;
+        //public string Year;
+        //public Car(string Name, string Mileage, string Year)
+        //{
+        //    this.Name = Name;
+        //    this.Mileage = Mileage;
+        //    this.Year = Year;
+        //}
     }
     public class Cars
     {
-        public static List<Car> All_cars = new List<Car>();
-        public Cars()
-        {
+        //public static List<Car> All_cars = new List<Car>();
+        //public Cars()
+        //{
 
-        }
-        public static void AddCar(string Name, string Mileage, string Year)
-        {
-            All_cars.Add(new Car(Name, Mileage, Year));
+        //}
+        //public static void AddCar(string Name, string Mileage, string Year)
+        //{
+        //    All_cars.Add(new Car(Name, Mileage, Year));
 
-        }
+        //}
     }
     public class HomeController : Controller
     {
@@ -62,7 +62,7 @@ namespace pitpm_pr1.Controllers
         {
             return View();
         }
-
+       
         public IActionResult Toyota_Mark_II()
         {
             return View();
