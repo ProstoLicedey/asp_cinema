@@ -81,7 +81,7 @@ namespace pitpm_pr1.Controllers
         //    return View();
         //}
         [HttpPost]
-        public IActionResult Registr(string Nazvanie, string Mileage, string Year, string fn, string fa, string fy)
+        public IActionResult Registr(string Nazvanie, string Mileage, string Year, string fn, string fa, string fy) //вот это надо удалить 
         {
             Cars.AddCar(Nazvanie, Mileage, Year);
             for (int i = 0; i < Cars.All_cars.Count; i++)
