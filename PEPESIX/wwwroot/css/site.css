@@ -1,4 +1,6 @@
-
+header {
+    background-color: #6f42c1;
+}
 html {
     font-size: 15px;
     background-color: #17082f;
@@ -13,7 +15,7 @@ html {
 html {
     position: relative;
     min-height: 100%;
-    background-color: #17082f;
+    /*background-color: #17082f;*/
 }
 
 body {
@@ -35,7 +37,7 @@ a {
     
 }
 footer {
-    background-color: #44d9e8;
+    background-color: #6f42c1;
     color: dimgray;
     height: 40px;
     margin-top: 100px;
@@ -46,7 +48,7 @@ footer {
     margin-top: 5px;
 }
 #main {
-    color: aliceblue;
+    color: #6f42c1;
 }
 
 .mazda {
@@ -100,20 +102,20 @@ footer {
     display: none;
 }
 #okno {
-    width: 300px;
-    height: 50px;
+    width: 600px;
+    height: 550px;
     text-align: center;
     padding: 15px;
     border: 3px solid #0000cc;
     border-radius: 10px;
-    color: #0000cc;
+    color: ;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    background: #fff;
+    background: #30115e;
 }
 
 #zatemnenie:target {
@@ -158,7 +160,25 @@ footer {
     color: #ffffff;
     text-align: center;
     border-radius: 10px;
+    vertical-align:central;
 }
-header {
-    background-color: #6f42c1;
+
+#aut{
+    text-align:center;
+    font-style:oblique;
+    font-size: 20pt;
+    
+}
+#Registr {
+    margin-left: 370px;
+}
+#rectangle {
+    width: 700px;
+    height: 600px;
+    background: #333;
+    border-radius: 40px / 40px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-top: 38px;
+    align-self:center;
 }
