@@ -61,7 +61,7 @@ namespace pitpm_pr1.Controllers
         {
             using(IDbConnection db = Connection)
             {
-                var result = db.Query<User>("Select * from Users").ToList();
+                var result = db.Query<User>("Select * from Users").ToList();//получение листа
                 return result;
             }
         }
