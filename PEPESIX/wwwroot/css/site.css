@@ -103,19 +103,19 @@ footer {
 }
 #okno {
     width: 600px;
-    height: 400px;
+    height: 550px;
     text-align: center;
     padding: 15px;
     border: 3px solid #0000cc;
     border-radius: 10px;
-    color: #0000cc;
+    color: ;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    background: #fff;
+    background: #30115e;
 }
 
 #zatemnenie:target {
